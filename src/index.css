@@ -1,0 +1,50 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-item {
+  transition: all 0.3s ease;
+}
+
+.benefit-item:hover {
+  background-color: #f8f9fa;
+}
+
+footer a:hover {
+  text-decoration: underline !important;
+}
